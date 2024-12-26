@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding: 0%;
+}
+body {
+    background-image: url('https://images.pexels.com/photos/11873897/pexels-photo-11873897.jpeg?auto=compress&cs=tinysrgb&w=400'); /* Use the image URL here */
+    background-size: cover; /* Make the image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0; /* Remove default margins from the browser */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+.background-container {
+    background-image: url('https://images.pexels.com/photos/11873897/pexels-photo-11873897.jpeg?auto=compress&cs=tinysrgb&w=400'); /* Use the image link here */
+    background-size: cover; /* Make the image cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 90vh; /* Full height of the viewport */
+    width: 100%; /* Full width of the container */
+  }
+  
+.heading{
+    text-align: center;
+    padding-top: 50px;
+    color: aliceblue;
+}
+.container{
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+}
+.timer{
+    justify-content: center;
+    display: flex;
+    font-size: 90px;
+    padding-top: 50px;
+    color: aliceblue;
+}
+.button{
+    justify-content:center;
+    display: flex;
+    margin-top: 70px;
+}
+.start {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#3C3D37;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.stop {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3C3D37;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.reset {
+    width: 150px;
+    height: px;
+    border-radius: 10px;
+    background-color: #3C3D37;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+}
